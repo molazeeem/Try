@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --green:#7fff00;
+    --secmargin:136px;
+    --td:5s;
+}
+@font-face {
+    font-family: Crimson700;
+    src: url(./../fonts/CrimsonText-Bold.ttf);
+}
+@font-face {
+    font-family: Crimson400;
+    src: url(./../fonts/CrimsonText-Regular.ttf);
+}
+.whitespace{
+    padding-left: var(--secmargin);
+    padding-right: 13.0555vw;
+
+}
+
+
+.p{
+  width: 90vw;
+  height: 500px;
+  margin: 20px auto;
+  background-color: #b3e481;
+  display: grid;
+  grid-template-areas: "logo logo nav nav nav"
+                      "hero hero hero hero hero"
+                      "hero hero hero hero hero";
+  
+
+}
+
+.ch{
+  font-size: 36px;
+}
+.one{
+  background-color: aqua;
+  grid-area: logo;
+  
+}
+.three{
+grid-area: hero;
+  background-color: rebeccapurple;
+}
+.two{
+  background-color: red;
+  grid-area: nav;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
